@@ -1,0 +1,38 @@
+Commands
+Dev
+yum install git -y
+    yum update -y
+   91  mkdir /data
+     cd /data/
+     git init
+   yum install git -y
+   yum update git -y
+   mkdir /data
+  cd /data/
+git init
+pwd
+mkdir /data1
+ cd /data1/
+ git init
+pwd
+ls -a
+cd
+ssh-keygen
+cd .ssh
+cat id_rsa.pub
+    cd /data/
+vim index.html
+yum install git -y
+git update -y
+
+
+Jenkins
+java -version
+      dnf install java-17-amazon-corretto -y
+    java -version
+       wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+      rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+      dnf install jenkins -y
+     systemctl enable jenkins
+      systemctl start jenkins
+     history
