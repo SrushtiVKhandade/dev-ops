@@ -40,9 +40,14 @@ java -version
       systemctl start jenkins
   /var/lib/jenkins/secrets/initialAdminPassword
     cat /var/lib/jenkins/secrets/initialAdminPassword
+yum install git -y
+yum update -y
+webhooks- generate tokan from configure > jenkins
 
-webhooks
-     history
+jenkins > new item > freestyle project > > add git url > change settings >
+
+
+     
 
 
 dnf install java-17-amazon-corretto -y
