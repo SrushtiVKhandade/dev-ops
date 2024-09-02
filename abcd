@@ -38,6 +38,10 @@ java -version
       dnf install jenkins -y
      systemctl enable jenkins
       systemctl start jenkins
+  /var/lib/jenkins/secrets/initialAdminPassword
+    cat /var/lib/jenkins/secrets/initialAdminPassword
+
+webhooks
      history
 
 
