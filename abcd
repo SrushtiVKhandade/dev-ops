@@ -47,6 +47,28 @@ webhooks- generate tokan from configure > jenkins
 jenkins > new item > freestyle project > > add git url > change settings >
 
 
+
+
+
+Create user:
+ 
+vim /etc/sudoers 
+useradd nehal
+passwd nehal
+    su - nehal
+   vim /etc/sudoers
+ 
+    whereis fdisk
+   whereis passwd
+     whereis useradd
+    vim /etc/sudoers
+add user----> /usr/sbin/fdisk,  /usr/bin/passwd, /usr/bin/su , /usr/sbin/useradd,!/usr/bin/passwd root
+    sudo - ashish
+   su - ashish
+   passwd ashish
+   su - ashish
+   useradd prakhar
+   passwd prakhar
      
 
 
