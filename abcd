@@ -27,6 +27,9 @@ git update -y
 
 
 Jenkins
+free -h
+cat /proc
+cat /proc/meminfo
 java -version
       dnf install java-17-amazon-corretto -y
     java -version
