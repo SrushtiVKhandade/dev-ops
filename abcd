@@ -36,3 +36,34 @@ java -version
      systemctl enable jenkins
       systemctl start jenkins
      history
+
+
+dnf install java-17-amazon-corretto -y
+java -version
+wget -O /etc/yum.repos.d/jenkins.repo \
+https://pkg.jenkins.io/redhat-stable/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+dnf install jenkins -y
+systemctl enable jenkins
+systemctl start jenkins
+cat /var/lib/jenkins/secrets/initialAdminPassword
+ 
+Git 
+mkdir /test
+yum install git -y
+cd /test
+git init
+cd
+cd .ssh/
+ssh-key-gen
+ll
+cat id_rsa.pub
+cd
+cd /test
+vim index.html
+git add index.html
+git commit -m "first commit"
+git branch -m main
+git branch
+git remote add origin root@
+git push origin main
