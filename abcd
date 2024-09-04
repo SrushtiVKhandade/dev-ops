@@ -2,28 +2,25 @@ Commands
 Dev
 yum install git -y
     yum update -y
-   91  mkdir /data
+     mkdir /data
      cd /data/
      git init
-   yum install git -y
-   yum update git -y
-   mkdir /data
-  cd /data/
-git init
-pwd
-mkdir /data1
- cd /data1/
- git init
 pwd
 ls -a
 cd
 ssh-keygen
 cd .ssh
 cat id_rsa.pub
+add new ssh key to git repo
+copy ssh key path
     cd /data/
 vim index.html
-yum install git -y
-git update -y
+git commit -m "first commit" index.html
+git branch -M main
+git branch
+git remote add origin git@github.com:SrushtiVKhandade/31-08-24-git-3rd.git
+
+
 
 
 Jenkins
